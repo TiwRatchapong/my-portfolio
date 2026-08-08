@@ -32,7 +32,12 @@ export default function Hero() {
             </p>
 
             <div className="mt-6 flex items-center gap-4">
-              <a href="/resume.pdf" className="button-primary">
+              <a
+                href="/resume.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="button-primary"
+              >
                 <Download size={16} />
                 Resume
               </a>
