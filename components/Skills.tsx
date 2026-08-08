@@ -4,12 +4,13 @@ const skills = [
   {
     title: "Frontend",
     items: [
-      "HTML",
-      "CSS",
       "JavaScript",
       "TypeScript",
+      "Vue.js",
       "React",
       "Next.js",
+      "HTML",
+      "CSS",
       "Tailwind CSS",
     ],
   },
@@ -17,26 +18,26 @@ const skills = [
     title: "Backend",
     items: [
       "Node.js",
-      "Supabase",
+      "REST API",
+      "API Integration",
     ],
   },
   {
     title: "Database",
     items: [
       "MySQL",
-      "PostgreSQL",
     ],
   },
   {
-    title: "Tools",
+    title: "Tools & Cloud",
     items: [
       "Git",
       "GitHub",
-      "VS Code",
       "Figma",
-      "Vercel",
-      "Render",
       "XAMPP",
+      "Render",
+      "Vercel",
+      "VS Code",
     ],
   },
 ];
