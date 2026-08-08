@@ -34,7 +34,9 @@ export async function getRepositories(): Promise<GithubRepository[]> {
   );
 
   if (!res.ok) {
-    throw new Error("Failed to fetch repositories");
+    throw new Error(
+      `GitHub API Error: ${res.status} ${res.statusText}`
+    );
   }
 
   const repos: GithubRepository[] = await res.json();

@@ -4,7 +4,7 @@
 
 Building modern and practical web applications.
 
-[![GitHub](https://img.shields.io/badge/GitHub-TiwRatchapong-181717?style=for-the-badge&logo=github)](https://github.com/TiwRatchapong)
+🌐 **Live Portfolio:** https://my-portfolio-kappa-sand-19.vercel.app/
 
 ---
 
@@ -47,7 +47,8 @@ I continuously improve my development skills by working on personal projects and
 - GitHub
 - Figma
 - XAMPP
-- Render / Vercel
+- Render
+- Vercel
 - VS Code
 
 ---
@@ -69,18 +70,19 @@ GPA: **3.30**
 
 ### 🎌 AniPaiYaa
 
-Anime discovery website for searching and exploring anime information.
+Anime discovery web application for searching, exploring, and managing anime.
 
 **Features**
 
 - 🔎 Anime search and discovery
 - 📖 Anime details
 - ⭐ Anime watchlist
+- 🎬 Anime information from API
 - 📱 Responsive design
 
 **Tech Stack**
 
-`Next.js` · `TypeScript` · `Tailwind CSS`
+`Next.js` · `TypeScript` · `React` · `Tailwind CSS` · `Jikan API`
 
 🔗 **Repository:**  
 https://github.com/TiwRatchapong/Anipaiyaa
@@ -92,18 +94,19 @@ https://anipaiyaa.vercel.app/
 
 ### 🏸 Badminton Booking
 
-Web application for booking badminton courts and managing court reservations.
+Web application for booking and managing badminton court reservations.
 
 **Features**
 
 - 📅 Court booking
 - 🏸 Court management
 - 👤 User interaction
+- 🔄 Reservation management
 - 📱 Responsive interface
 
 **Tech Stack**
 
-`Next.js` · `TypeScript` · `Tailwind CSS`
+`Vue.js` · `JavaScript` · `Node.js` · `Express` · `MySQL` · `REST API`
 
 🔗 **Repository:**  
 https://github.com/TiwRatchapong/badminton-booking
@@ -122,11 +125,12 @@ Web application for reporting and tracking problems within a community.
 - 📝 Submit community reports
 - 📋 View reported issues
 - 🔎 Track report information
+- 📊 Manage community reports
 - 📱 Responsive interface
 
 **Tech Stack**
 
-`Next.js` · `TypeScript` · `Tailwind CSS`
+`Next.js` · `TypeScript` · `Tailwind CSS` · `Supabase`
 
 🔗 **Repository:**  
 https://github.com/TiwRatchapong/community-report
@@ -149,8 +153,32 @@ The portfolio showcases:
 - 📩 Contact
 - 📄 Resume
 
+### 🧰 Built With
+
+- Next.js
+- TypeScript
+- Tailwind CSS
+- Framer Motion
+- React Icons
+- GitHub REST API
+- Vercel
+
+### ✨ Features
+
+- Responsive design
+- Modern and minimal UI
+- Section reveal animations
+- Dynamic project listing
+- GitHub API integration
+- Automatic project information from GitHub
+- Project repository and live demo links
+- Resume download
+
 🔗 **GitHub:**  
 https://github.com/TiwRatchapong
+
+🌐 **Live Portfolio:**  
+https://my-portfolio-kappa-sand-19.vercel.app/
 
 ---
 
@@ -160,45 +188,3 @@ https://github.com/TiwRatchapong
 
 ```bash
 git clone https://github.com/TiwRatchapong/my-portfolio.git
-```
-
-### 2. Go to the project directory
-
-```bash
-cd my-portfolio
-```
-
-### 3. Install dependencies
-
-```bash
-npm install
-```
-
-### 4. Run the development server
-
-```bash
-npm run dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) in your browser.
-
----
-
-## 📬 Contact
-
-**Ratchapong Thongwiang**
-
-📧 Email: `tp.ratchapong@gmail.com`
-
-📱 Phone: `095-876-2089`
-
-🐙 GitHub:  
-https://github.com/TiwRatchapong
-
----
-
-<div align="center">
-
-### Thanks for visiting my portfolio! ❤️
-
-</div>
