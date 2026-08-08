@@ -4,12 +4,13 @@ const skills = [
   {
     title: "Frontend",
     items: [
-      "HTML",
-      "CSS",
       "JavaScript",
       "TypeScript",
+      "Vue.js",
       "React",
       "Next.js",
+      "HTML",
+      "CSS",
       "Tailwind CSS",
     ],
   },
@@ -17,26 +18,26 @@ const skills = [
     title: "Backend",
     items: [
       "Node.js",
-      "Supabase",
+      "REST API",
+      "API Integration",
     ],
   },
   {
     title: "Database",
     items: [
       "MySQL",
-      "PostgreSQL",
     ],
   },
   {
-    title: "Tools",
+    title: "Tools & Cloud",
     items: [
       "Git",
       "GitHub",
-      "VS Code",
       "Figma",
-      "Vercel",
-      "Render",
       "XAMPP",
+      "Render",
+      "Vercel",
+      "VS Code",
     ],
   },
 ];
@@ -44,15 +45,14 @@ const skills = [
 export default function Skills() {
   return (
     <Reveal>
-      <section className="pt-6 pb-16">
+      <section className="section">
         <div className="container-custom">
 
-          <h2 className="mb-5 text-[24px] font-semibold">
+          <h2 className="section-title">
             Tech Stack
           </h2>
 
           <div className="grid gap-4 md:grid-cols-2">
-
             {skills.map((group) => (
               <div
                 key={group.title}
@@ -69,31 +69,14 @@ export default function Skills() {
                   {group.items.map((item) => (
                     <span
                       key={item}
-                      className="
-                      rounded-md
-                      border
-                      border-zinc-600
-                      bg-zinc-800
-                      px-3
-                      py-1.5
-                      text-xs
-                      font-medium
-                      text-zinc-200
-                      transition-all
-                      duration-200
-                      hover:border-zinc-400
-                      hover:bg-zinc-700
-                      hover:text-white
-                    "
+                      className="badge"
                     >
                       {item}
                     </span>
                   ))}
                 </div>
-
               </div>
             ))}
-
           </div>
 
         </div>
