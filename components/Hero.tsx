@@ -24,13 +24,16 @@ export default function Hero() {
               รัชชพงษ์ ทองเวียง
             </h1>
 
-            <p className="mt-5 max-w-[430px] text-[15px] leading-8 text-zinc-400">
-              สวัสดีครับ ทิวครับ มีความสนใจในด้าน
-              <strong> Full-Stack Developer </strong>
-              พร้อมเรียนรู้และพัฒนาทักษะเพื่อสร้าง Web Application
-              ที่ใช้งานได้จริง
+            <p className="mt-5 max-w-[500px] text-[15px] leading-8 text-zinc-400">
+              <span className="whitespace-nowrap">
+                สวัสดีครับ ทิวครับ มีความสนใจในด้าน{" "}
+                <strong>Full-Stack Developer</strong> และ{" "}
+                <strong>IT Support</strong>
+              </span>
+              <br />
+              พร้อมเรียนรู้และพัฒนาทักษะเพื่อสร้าง Web Application ที่ใช้งานได้จริง
             </p>
-
+            
             <div className="mt-6 flex items-center gap-4">
               <a
                 href="/resume.pdf"
